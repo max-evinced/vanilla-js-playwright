@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@evinced/js-playwright-sdk": "file:/Users/mdobeck/Downloads/js-playwright-sdk-2.14.0.tgz",
     "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.12"
   }
