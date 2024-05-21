@@ -18,7 +18,7 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Home | Evinced, Demo Site/);
   const issues = await evincedService.evAnalyze();
-  evincedService.evSaveFile(issues, 'html', 'test-results/evinced-report.html')
+  evincedService.evSaveFile(issues, 'html', 'test-results/evinced-single-run-report.html')
 });
 
 test('search button', async ({ page }) => {
@@ -27,4 +27,5 @@ test('search button', async ({ page }) => {
   await evincedService.evStart()
   await page.getByRole('link', { name: 'Search' }).isVisible();
   const issues = await evincedService.evStop()
+  evincedService.evSaveFile(issues, 'html', 'test-results/evinced-continuous-report.html')
 });
