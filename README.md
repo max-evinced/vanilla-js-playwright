@@ -1,6 +1,10 @@
 # Vanilla JS Playwright
 Evinced in use with JavaScript Playwright sample.
 
+## Contents
+1. [Setup SDK](#setup-evinced-sdk)
+2. [Run Tests](#run-tests)
+
 ## Setup Evinced SDK
 Note: put `js-playwright-sdk-2.14.0.tgz` somewhere on your local disk for this example.
 
