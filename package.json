@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "pnpm exec playwright test tests/evinced"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
