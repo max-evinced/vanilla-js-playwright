@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@evinced/js-playwright-sdk':
-        specifier: file:/Users/mdobeck/Downloads/js-playwright-sdk-2.14.0.tgz
-        version: file:../Downloads/js-playwright-sdk-2.14.0.tgz
+        specifier: file:sdk/js-playwright-sdk-2.14.0.tgz
+        version: file:sdk/js-playwright-sdk-2.14.0.tgz
       '@playwright/test':
         specifier: ^1.44.0
         version: 1.44.0
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@evinced/js-playwright-sdk@file:../Downloads/js-playwright-sdk-2.14.0.tgz':
-    resolution: {integrity: sha512-pAcDCinQ14DuuCoSr17+d8vM6VGKzd8WqzEDp7ZtwUrUwKXCTXeuC/hnVR8z1SYIxy45jEVHy8jRyPpRYxOu6g==, tarball: file:../Downloads/js-playwright-sdk-2.14.0.tgz}
+  '@evinced/js-playwright-sdk@file:sdk/js-playwright-sdk-2.14.0.tgz':
+    resolution: {integrity: sha512-pAcDCinQ14DuuCoSr17+d8vM6VGKzd8WqzEDp7ZtwUrUwKXCTXeuC/hnVR8z1SYIxy45jEVHy8jRyPpRYxOu6g==, tarball: file:sdk/js-playwright-sdk-2.14.0.tgz}
     version: 2.14.0
 
   '@playwright/test@1.44.0':
@@ -52,7 +52,7 @@ packages:
 
 snapshots:
 
-  '@evinced/js-playwright-sdk@file:../Downloads/js-playwright-sdk-2.14.0.tgz': {}
+  '@evinced/js-playwright-sdk@file:sdk/js-playwright-sdk-2.14.0.tgz': {}
 
   '@playwright/test@1.44.0':
     dependencies:
