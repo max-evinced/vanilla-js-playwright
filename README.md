@@ -9,6 +9,12 @@ npm install && npm install -D ~/Downloads/js-playwright-sdk-2.14.0.tgz
 
 ```
 
+## Run Tests
+`npm run test`
+
+`npm run test --ui` will launch the Interactive UI mode by appending the --ui flag.
+
+This will launch the exec command 
 
 ## Basic Playwright Setup & Commands
 Note: Post Install message after setting up Playwright
