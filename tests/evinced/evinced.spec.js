@@ -27,5 +27,11 @@ test('search button', async ({ page }) => {
   await evincedService.evStart()
   await page.getByRole('link', { name: 'Search' }).isVisible();
   const issues = await evincedService.evStop()
-  evincedService.evSaveFile(issues, 'html', 'test-results/evinced-continuous-report.html')
+  await evincedService.evSaveFile(issues, 'html', 'test-results/evinced-continuous-report.html')
+});
+
+test('doe page render', async ({ page }, testInfo) => {
+  await page.goto('https://demo.evinced.com');
+  const buffer = await page.screenshot();
+  await testInfo.attach('screenshot', { body: buffer, contentType: 'image/png' });
 });
