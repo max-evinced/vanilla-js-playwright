@@ -1,9 +1,11 @@
 # Vanilla JS Playwright
 Evinced in use with JavaScript Playwright sample.
 
+
 ## Contents
 1. [Setup SDK](#setup-evinced-sdk)
 2. [Run Tests](#run-tests)
+
 
 ## Setup Evinced SDK
 Note: put `js-playwright-sdk-2.14.0.tgz` somewhere on your local disk for this example.
@@ -13,12 +15,14 @@ npm install && npm install -D ~/Downloads/js-playwright-sdk-2.14.0.tgz
 
 ```
 
+
 ## Run Tests
 `npm run test`
 
 `npm run test --ui` will launch the Interactive UI mode by appending the --ui flag.
 
-This will launch the exec command 
+This script will launch the exec command for the `tests/evinced` directory.
+
 
 ## Basic Playwright Setup & Commands
 Note: Post Install message after setting up Playwright
