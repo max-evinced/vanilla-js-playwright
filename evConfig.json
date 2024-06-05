@@ -6,5 +6,6 @@
       "LOGGING_LEVEL": "error",
       "ADD_LOGGING_CONTEXT": true
     },
-    "skipValidations": []
+    "skipValidations": [],
+    "enableScreenshots": true
   }
