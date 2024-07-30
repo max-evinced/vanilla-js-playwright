@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@evinced/js-playwright-sdk':
-        specifier: file:sdk/js-playwright-sdk-2.14.0.tgz
-        version: file:sdk/js-playwright-sdk-2.14.0.tgz
+        specifier: ^2.17.0
+        version: 2.17.0
       '@playwright/test':
         specifier: ^1.44.0
         version: 1.44.0
@@ -20,9 +20,8 @@ importers:
 
 packages:
 
-  '@evinced/js-playwright-sdk@file:sdk/js-playwright-sdk-2.14.0.tgz':
-    resolution: {integrity: sha512-pAcDCinQ14DuuCoSr17+d8vM6VGKzd8WqzEDp7ZtwUrUwKXCTXeuC/hnVR8z1SYIxy45jEVHy8jRyPpRYxOu6g==, tarball: file:sdk/js-playwright-sdk-2.14.0.tgz}
-    version: 2.14.0
+  '@evinced/js-playwright-sdk@2.17.0':
+    resolution: {integrity: sha512-SaYflzyJNC14XANq6TFXf/+YlR80cA8kLU1aeMeUDp/rqKq0wnXGK3pOZ/8NmFh2DqQ17BX1KnwiTUMTDOfpZQ==, tarball: https://evinced.jfrog.io/artifactory/api/npm/restricted-npm/@evinced/js-playwright-sdk/-/@evinced/js-playwright-sdk-2.17.0.tgz}
 
   '@playwright/test@1.44.0':
     resolution: {integrity: sha512-rNX5lbNidamSUorBhB4XZ9SQTjAqfe5M+p37Z8ic0jPFBMo5iCtQz1kRWkEMg+rYOKSlVycpQmpqjSFq7LXOfg==}
@@ -52,7 +51,7 @@ packages:
 
 snapshots:
 
-  '@evinced/js-playwright-sdk@file:sdk/js-playwright-sdk-2.14.0.tgz': {}
+  '@evinced/js-playwright-sdk@2.17.0': {}
 
   '@playwright/test@1.44.0':
     dependencies:
