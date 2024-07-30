@@ -23,6 +23,7 @@ test('has title', async ({ page }) => {
 
 test('search button', async ({ page }) => {
   await page.goto('https://demo.evinced.com');
+  await page.pause()
   const evincedService = new EvincedSDK(page)
   await evincedService.evStart()
   await page.getByRole('link', { name: 'Search' }).isVisible();
