@@ -6,6 +6,10 @@
       "LOGGING_LEVEL": "error",
       "ADD_LOGGING_CONTEXT": true
     },
+    "toggles": {
+      "USE_AXE_NEEDS_REVIEW": false,
+      "USE_AXE_BEST_PRACTICES": false
+    },
     "skipValidations": [],
     "enableScreenshots": true
   }
