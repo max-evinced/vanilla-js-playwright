@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@evinced/js-playwright-sdk": "^2.17.0",
+    "@evinced/js-playwright-sdk": "^2.22.0",
     "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.12"
   }
