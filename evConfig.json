@@ -3,12 +3,13 @@
       "rules": {}
     },
     "logging": {
-      "LOGGING_LEVEL": "error",
+      "LOGGING_LEVEL": "debug",
       "ADD_LOGGING_CONTEXT": true
     },
     "toggles": {
       "USE_AXE_NEEDS_REVIEW": false,
-      "USE_AXE_BEST_PRACTICES": false
+      "USE_AXE_BEST_PRACTICES": false,
+      "ENABLE_SENDING_ENGINE_MATRICES": false
     },
     "skipValidations": [],
     "enableScreenshots": true
