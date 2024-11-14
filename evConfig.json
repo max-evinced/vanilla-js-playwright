@@ -1,4 +1,10 @@
 {
+    "reporterOptions": {
+        "reportFormat": "html", 
+        "fileName": "aggregatedReport.html", 
+        "outputDir": "./evincedReports", 
+        "tmpDir": "./evincedReports/tmp" 
+    },
     "axeConfig": {
       "rules": {}
     },
