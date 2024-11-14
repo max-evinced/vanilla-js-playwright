@@ -7,3 +7,4 @@ node_modules/
 sdk/
 .DS_STORE
 tests/tickets
+evincedReports
