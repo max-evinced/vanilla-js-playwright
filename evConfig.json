@@ -18,5 +18,6 @@
       "ENABLE_SENDING_ENGINE_MATRICES": false
     },
     "skipValidations": [],
-    "enableScreenshots": true
+    "enableScreenshots": true,
+    "switchOn": false
   }

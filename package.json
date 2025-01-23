@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "npm exec playwright test tests/evinced",
-    "tickets": "pnpm exec playwright test tests/tickets"
+    "tickets": "npm exec playwright test tests/tickets"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@evinced/js-playwright-sdk": "^2.23.1",
-    "@playwright/test": "1.46.1",
+    "@playwright/test": "^1.49.1",
     "@types/node": "^20.12.12"
   }
 }
