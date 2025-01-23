@@ -19,6 +19,8 @@ npm install && npm install -D ~/Downloads/js-playwright-sdk-2.14.0.tgz
 ## Run Tests
 `npm run test`
 
+`repeat 5 { npx playwright test --headed ./tests/path/to/some.spec.js }` in case you need to run repeated tests. Requires zsh shell.
+
 `npm run test --ui` will launch the Interactive UI mode by appending the --ui flag.
 
 This script will launch the exec command for the `tests/evinced` directory.
