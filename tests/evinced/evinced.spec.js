@@ -2,14 +2,17 @@
 const { test, expect } = require('@playwright/test');
 const { EvincedSDK, setCredentials } = require('@evinced/js-playwright-sdk');
 
-test.beforeAll(async () => {
-  console.log('Before all tests');
+test.beforeEach(async () => {
   await setCredentials({
     // @ts-ignore
     serviceId: process.env.AUTH_SERVICE_ID,
     // @ts-ignore
     secret: process.env.AUTH_SECRET
   })
+});
+
+test.afterEach(async () => {
+  await evincedService.evSaveFile(issues, 'html', 'test-results/evinced-single-run-report.html')
 });
 
 test('has title', async ({ page }) => {

@@ -1,23 +1,31 @@
 {
-    "reporterOptions": {
-        "reportFormat": "html", 
-        "fileName": "aggregatedReport.html", 
-        "outputDir": "./evincedReports", 
-        "tmpDir": "./evincedReports/tmp" 
-    },
-    "axeConfig": {
-      "rules": {}
-    },
-    "logging": {
-      "LOGGING_LEVEL": "debug",
-      "ADD_LOGGING_CONTEXT": true
-    },
-    "toggles": {
-      "USE_AXE_NEEDS_REVIEW": false,
-      "USE_AXE_BEST_PRACTICES": false,
-      "ENABLE_SENDING_ENGINE_MATRICES": false
-    },
-    "skipValidations": [],
-    "enableScreenshots": true,
-    "switchOn": false
-  }
+  "reporterOptions": {
+    "reportFormat": "html",
+    "fileName": "aggregatedReport.html",
+    "outputDir": "./evincedReports",
+    "tmpDir": "./evincedReports/tmp"
+  },
+  "axeConfig": {
+    "rules": {}
+  },
+  "logging": {
+    "LOGGING_LEVEL": "trace",
+    "ADD_LOGGING_CONTEXT": true
+  },
+  "sdkLogging": {
+    "enable": false,
+    "level": "trace",
+    "browserLoggingEnabled": true,
+    "systemInformationLoggingEnabled": true,
+    "maxLogLength": 10000
+  },
+  "toggles": {
+    "USE_AXE_NEEDS_REVIEW": false,
+    "USE_AXE_BEST_PRACTICES": false,
+    "ENABLE_SENDING_ENGINE_MATRICES": false
+  },
+  "skipValidations": [],
+  "enableScreenshots": false,
+  "includeIframes": false,
+  "switchOn": true
+}
