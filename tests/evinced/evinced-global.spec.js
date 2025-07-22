@@ -5,6 +5,7 @@ const { EvincedSDK } = require('@evinced/js-playwright-sdk');
 
 test('has title', async ({ page }) => {
   await page.goto('https://demo.evinced.com');
+  await page.waitForLoadState('domcontentloaded');
   const evincedService = new EvincedSDK(page)
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Home | Evinced, Demo Site/);
