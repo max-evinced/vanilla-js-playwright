@@ -2,11 +2,8 @@
   "reporterOptions": {
     "reportFormat": "html",
     "fileName": "aggregatedReport.html",
-    "outputDir": "./evincedReports",
+    "outputDir": "./test-results/evincedReports",
     "tmpDir": "./evincedReports/tmp"
-  },
-  "axeConfig": {
-    "rules": {}
   },
   "logging": {
     "LOGGING_LEVEL": "trace",
@@ -14,7 +11,9 @@
   },
   "sdkLogging": {
     "enable": false,
-    "level": "trace",
+    "performance": false,
+    "level": "debug",
+    "directory": "./logs",
     "browserLoggingEnabled": true,
     "systemInformationLoggingEnabled": true,
     "maxLogLength": 10000
@@ -25,7 +24,7 @@
     "ENABLE_SENDING_ENGINE_MATRICES": false
   },
   "skipValidations": [],
-  "enableScreenshots": false,
+  "enableScreenshots": true,
   "includeIframes": false,
   "switchOn": true
 }

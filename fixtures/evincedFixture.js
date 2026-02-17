@@ -15,9 +15,8 @@ export const test = base.extend({
         await use(evincedService);
 
         // Stop scanning and generate report
-        const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
         const testName = testInfo.title.replace(/\s+/g, "_");
-        const evReport = `./test-results/${testName}_${timestamp}.html`;
+        const evReport = `./test-results/${testName}.html`;
 
         try {
             const issues = await evincedService.evStop();
