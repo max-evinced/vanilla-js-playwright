@@ -15,6 +15,6 @@
     "@types/node": "^20.12.12"
   },
   "dependencies": {
-    "@evinced/js-playwright-sdk": "^2.36.0"
+    "@evinced/js-playwright-sdk": "^2.52.1"
   }
 }
